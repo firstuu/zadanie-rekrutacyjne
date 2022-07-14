@@ -19,9 +19,9 @@ const Footer = () => {
 					</ul>
 				</div>
 				<div>
-					<h1 className='text-3xl mb-6 font-Playfair'>News letter</h1>
-					<p className='text-[#ADB2B7]'>Enter your email address and subscribe daily newsletter</p>
-					<div className='flex flex-col md:flex-row space-y-4 md:space-y-0 items-center pt-4'>
+					<h1 className='text-3xl mb-6 font-Playfair text-center md:text-left'>News letter</h1>
+					<p className='text-[#ADB2B7] text-center md:text-left'>Enter your email address and subscribe daily newsletter</p>
+					<div className='flex flex-col md:flex-row space-y-4 md:space-y-0 items-center pt-4 '>
 						<input
 							className='px-10 py-4 mr-2 rounded-[4px] border-[2px] border-[#52535E] bg-transparent placeholder:text-[#f1f1f1a8] outline-none'
 							type='text'
