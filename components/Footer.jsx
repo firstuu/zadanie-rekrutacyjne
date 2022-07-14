@@ -4,7 +4,7 @@ import { BsQuestionSquare } from 'react-icons/bs'
 const Footer = () => {
 	return (
 		<footer className='bg-[#373844] pt-20 pb-20 text-white'>
-			<div className='lg:w-[1240px] mx-auto flex lg:flex-row flex-col items-center lg:items-start justify-center xl:justify-between space-y-20 lg:space-y-0  xl:space-x-0 '>
+			<div className='lg:w-[1240px] mx-auto flex lg:flex-row flex-col items-center lg:items-start justify-center xl:justify-between space-y-20 lg:space-y-0 sm:space-x-12  xl:space-x-0 '>
 				<div className='flex flex-col justify-between '>
 					<h1 className='text-3xl mb-6 font-Playfair'>Navigation</h1>
 					<ul className='uppercase letter tracking-[0.35px] font-Sinton text-sm text-[#ADB2B7] space-y-2 text-center lg:text-left'>
