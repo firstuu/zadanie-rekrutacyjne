@@ -3,7 +3,7 @@ import React from 'react'
 const Info = () => {
 	return (
 		<main className='bg-[#f1f1f1] pt-6 pb-10 font-Playfair'>
-			<div className='lg:w-[1240px] mx-auto py-auto flex justify-between items-center '>
+			<div className='lg:w-[1240px] mx-auto py-auto flex flex-col md:flex-row justify-between items-center space-y-12 md:space-y-0'>
 				<h1 className='text-5xl '>Opening Hours</h1>
 
 				<div className='flex text-center'>
@@ -18,7 +18,7 @@ const Info = () => {
 				</div>
 				<div>
 					<img
-						className='translate-y-20'
+						className='translate-y-20 hidden lg:block'
 						src='/assets/1.avif'
 						alt=''
 						width='310px'
